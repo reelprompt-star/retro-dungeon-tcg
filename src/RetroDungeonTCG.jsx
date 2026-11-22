@@ -2566,7 +2566,7 @@ function RetroDungeonTCG() {
   const [sfxOn, setSfxOn] = useState(true);
 
   // Clé API Gemini (automatique dans l'environnement ou personnalisée pour iPhone 14)
-const [customGeminiKey, setCustomGeminiKey] = useState('AQ.Ab8RN6LO9AB8uAj-kTGcrUdthnXF547fob0ZyPFNSL0FdGxN7A');
+const EMBEDDED_GEMINI_API_KEY = 'AQ.Ab8RN6L97ymXFHLuYvpPo4828fMlEre_mUDIDu9amBSAWzB2bA';
 
   // Sprites Pixel Art IA en mémoire + cache IndexedDB
   const [sprites, setSprites] = useState({});
